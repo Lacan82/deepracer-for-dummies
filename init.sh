@@ -42,6 +42,7 @@ then
 fi
 
 # setup venv for log analysis
+pip install virtualenv
 cd ${SCRIPTPATH}/aws-deepracer-workshops/log-analysis
 virtualenv -p python3 log-analysis.venv
 source ${SCRIPTPATH}/aws-deepracer-workshops/log-analysis/log-analysis.venv/bin/activate
